@@ -13,7 +13,24 @@
 </head>
 
 <body>
+  <!-- nav button -->
+  <span class="nav-btn" id="nav-btn">
+    <i class="fas fa-bars"></i>
+  </span>
   <!-- navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-header">
+      <span class="nav-close" id="nav-close">
+        <i class="fas fa-times"></i>
+      </span>
+    </div>
+    <ul class="nav-items">
+      <li><a href="index.html" class="nav-link">home</a></li>
+      <li><a href="skills.html" class="nav-link">skills</a></li>
+      <li><a href="about.html" class="nav-link">about</a></li>
+      <li><a href="products.html" class="nav-link">products</a></li>
+    </ul>
+  </nav>
   <!-- header -->
   <header class="header">
     <div class="banner">
@@ -273,7 +290,33 @@
       </article>
     </div>
   </section>
-  <script src="app.js"></script>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="section-center">
+      <!-- social icons -->
+      <div class="social-icons">
+        <!-- facebook -->
+        <a href="#" class="social-icon">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <!-- twitter -->
+        <a href="#" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <!-- instagram -->
+        <a href="#" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <h4 class="footer-text">
+        &copy;<span id="date"></span>
+        <span class="company">tea station</span>
+        <span>all rights reserved</span>
+      </h4>
+    </div>
+  </footer>
+  <script src="./app.js"></script>
 </body>
 
 </html>
