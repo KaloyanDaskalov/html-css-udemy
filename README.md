@@ -1,1 +1,1 @@
-# html-css-udemy-John Smilga
+# html-css from udemy by John Smilga
