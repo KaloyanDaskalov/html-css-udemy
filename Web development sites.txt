@@ -1,11 +1,11 @@
-https://fontawesome.com/ --- �����
+https://fontawesome.com/ --- web icons
 
-https://www.pexels.com/ --- ������
-https://pixabay.com/bg/ --- ������
-https://gratisography.com/ --- ������
+https://www.pexels.com/ --- pictures
+https://pixabay.com/bg/ --- pictures
+https://gratisography.com/ --- funny pictures
 
-https://coolors.co --- ��������� �������
+https://coolors.co --- matching colors 
 
-https://www.colorzilla.com/gradient-editor/ --- �������� ��������� �� ���-�
+https://www.colorzilla.com/gradient-editor/ --- css gradient generator
 
-https://favicon.io/ --- 
+https://favicon.io/ --- favicon creator from text, pictures .... 
