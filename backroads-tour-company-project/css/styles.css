@@ -317,6 +317,7 @@ Services
     flex: 0 0 calc(50% - 1rem);
     margin-bottom: 1rem;
   }
+}
 
 @media screen and (min-width: 992px) {
   .service {
