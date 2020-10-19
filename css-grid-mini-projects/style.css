@@ -11,7 +11,7 @@ Variables
   --mainBlack: #222;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --darckGray: #afafaf;
+  --darkGray: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.2rem;
 }
@@ -73,12 +73,51 @@ p {
   border: 3px solid var(--primaryColor);
   color: var(--primaryColor);
   margin: 3rem;
-  letter-spacing: var(--mainSpacing);
-  font-weight: bold;
+  /* letter-spacing: var(--mainSpacing);
+  font-weight: bold; */
   transition: var(--mainTransition);
 }
 
 .btn:hover {
   background: var(--primaryColor);
   color: var(--mainWhite);
+}
+
+/*
++++++++++++++++++++++++
+main-navbar
++++++++++++++++++++++++
+*/
+.main-navbar {
+  background: var(--darkGray);
+  padding: 0 2rem;
+}
+
+.main-navbar li {
+  list-style-type: none;
+}
+
+.main-navbar a {
+  text-transform: capitalize;
+  display: block;
+  padding: 1rem 0;
+  color: var(--primaryColor);
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+}
+
+.main-navbar a:hover {
+  color: var(--mainBlack);
+}
+
+@media screen and (min-width: 992px) {
+  .main-navbar ul {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-navbar a {
+    text-align: center;
+  }
 }
