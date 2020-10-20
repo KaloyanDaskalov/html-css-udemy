@@ -137,13 +137,15 @@ Hero project
 }
 
 .hero-banner {
-  /* text-align: center; */
+  text-align: center;
 }
 
 .hero-banner p {
   width: 80%;
   max-width: 560px;
   font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
