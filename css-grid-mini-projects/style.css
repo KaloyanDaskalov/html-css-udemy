@@ -222,6 +222,14 @@ grid column layout with media query
 } 
 */
 
+/* fix if some of card have more rows !!! */
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
 /* (1170px - 64px)/3columns = 368px 
 max-screen width 1170 ||| 2 gabs * 34px = 64px ||| 3 columns layout 
 auto-fit - don't create all columns if not items for all columns
