@@ -163,3 +163,77 @@ Hero project
       url("./images/image-2.jpeg") center/cover fixed no-repeat;
   }
 }
+
+/*
++++++++++++++++++++++++
+Cards project
++++++++++++++++++++++++
+*/
+.cards {
+  padding: 4rem 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.cards-center {
+  width: 80vw;
+  max-width: 1170;
+  margin: 2rem auto;
+}
+
+.card {
+  border: 1px solid var(--darkGray);
+  margin-bottom: 3rem;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-footer {
+  background: var(--darkGray);
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.card-footer span {
+  color: var(--primaryColor);
+}
+
+/* 
+grid column layout with media query
+
+  @media screen and (min-width: 768px) {
+  .cards-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  @media screen and (min-width: 1170px) {
+    .cards-center {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+} 
+*/
+
+/* (1170px - 64px)/3columns = 368px 
+max-screen width 1170 ||| 2 gabs * 34px = 64px ||| 3 columns layout 
+auto-fit - don't create all columns if not items for all columns
+auto-fill - create all columns regardless items counts !!!
+*/
+
+.cards-center {
+  display: grid;
+  column-gap: 2rem;
+  /* three column layout */
+  /* grid-template-columns: repeat(auto-fit, minmax(368px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fill, minmax(368px, 1fr)); */
+  /* four column layout */
+  grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
+}
