@@ -238,6 +238,7 @@ auto-fill - create all columns regardless items counts !!!
 
 .cards-center {
   display: grid;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
   /* three column layout */
   /* grid-template-columns: repeat(auto-fit, minmax(368px, 1fr)); */
@@ -266,6 +267,7 @@ Tiles project
 @media screen and (min-width: 768px) {
   .tiles-center {
     grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 }
@@ -289,6 +291,7 @@ Tiles project
   }
   .tiles img {
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
   }
   .tile-1 {
