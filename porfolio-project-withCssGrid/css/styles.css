@@ -923,11 +923,53 @@ Blog
 Footer
 ===============
 */
+.footer {
+  padding-bottom: 2rem;
+  background: #222;
+  display: grid;
+  place-items: center;
+}
+
+.footer .social-icons {
+  margin-bottom: 2rem;
+}
+
+.footer .social-icon {
+  color: var(--clr-primary-5);
+}
+
+.footer .social-icon:hover {
+  color: var(--clr-primary-10);
+}
+
+.footer p {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+
 /*
 =============== 
 Single Page
 ===============
 */
+.single-page {
+  background: var(--clr-primary-10);
+  min-height: calc(100vh - 5rem - 198px);
+}
+
+.page-info {
+  max-width: 700px;
+}
+
+.page-info a {
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+
+.page-info a:hover {
+  color: var(--clr-primary-1);
+}
 
 /*
 =============== 
