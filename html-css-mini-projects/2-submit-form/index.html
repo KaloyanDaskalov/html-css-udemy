@@ -14,5 +14,45 @@
   </head>
   <body>
     <h1 class="section-title">submit form</h1>
+    <div class="container">
+      <header>
+        <h2 class="header-title">submit a tool</h2>
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </header>
+      <form action="">
+        <div class="form-control">
+          <label for="name">name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-input"
+            placeholder="UI Design Daily"
+          />
+        </div>
+        <div class="form-control">
+          <label for="resource">link to resource</label>
+          <input
+            type="text"
+            name="resource"
+            id="resource"
+            class="form-input"
+            placeholder="https://www.uidesigndaily.com"
+          />
+        </div>
+        <div class="form-control">
+          <label for="category">Category</label>
+          <select name="category" id="category" class="form-input">
+            <option value="" disabled selected hidden>Select a Category</option>
+            <option value="first option">first option</option>
+            <option value="second option">second option</option>
+            <option value="third option">third option</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-btn">submit</button>
+      </form>
+    </div>
   </body>
 </html>
