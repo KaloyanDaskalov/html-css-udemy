@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up Form Starter</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./styles.css" />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <h2>sign up form starter</h2>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Form Starter</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <section class="services">
+        <!-- services 1 -->
+        <article class="service">
+          <span class="icon"><i class="fas fa-check"></i></span>
+          <h4>quick and easy sign-up</h4>
+          <p>Enter your email address to create an account.</p>
+        </article>
+        <!-- services 2 -->
+        <article class="service">
+          <span class="icon"><i class="fas fa-check"></i></span>
+          <h4>cross-platform solution</h4>
+          <p>Preview your newsletters on any device before sending them out.</p>
+        </article>
+        <!-- services 3 -->
+        <article class="service">
+          <span class="icon"><i class="fas fa-check"></i></span>
+          <h4>start sending emails</h4>
+          <p>Use our API or pick our pre-built templates.</p>
+        </article>
+      </section>
+      <!-- form -->
+      <form action="" class="form">
+        <h2>create your account</h2>
+        <!-- email -->
+        <div class="form-control">
+          <label for="email">email</label>
+          <input type="email" name="email" class="form-input" id="email" placeholder="enter your email">
+        </div>
+        <!-- name -->
+        <div class="form-control">
+          <label for="name">full name</label>
+          <input type="text" name="name" class="form-input" id="name" placeholder="enter your full name">
+        </div>
+        <!-- password -->
+        <div class="form-control">
+          <label for="password">password</label>
+          <input type="password" name="password" class="form-input" id="password"
+            placeholder="type to create a password">
+        </div>
+        <!-- checkbox -->
+        <div class="updates">
+          <input type="checkbox" name="updates">
+          <p>get udpates and notifications about our product</p>
+        </div>
+        <button type="submit" class="btn">type to create a password</button>
+      </form>
+    </div>
+  </main>
+</body>
+
 </html>
